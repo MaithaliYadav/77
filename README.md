@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maithali's res</title>
+  <title>Maithali</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -11,7 +11,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Maithali - Mankapur</a>
+    <a class="navbar-brand" href="#">Maithali</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,10 +37,7 @@
   <h2 class="text-center mb-4">Our Ambiance</h2>
   <div class="row g-3">
     <div class="col-md-4"><img src="img1.jpg" class="img-fluid rounded" alt="Restaurant"></div>
-    <div class="col-md-4"><img src="img2.<<img width="206" height="148" alt="image" src="https://github.com/user-attachments/assets/b8e801ab-8c81-42b5-b884-fce636487c0e" />
-
-<img width="189" height="148" alt="image" src="https://github.com/user-attachments/assets/ccd60763-1cef-46b4-8053-1a094a0b0280" />
-jpg" class="img-fluid rounded" alt="Dining"></div>
+    <div class="col-md-4"><img src="img2.jpg" class="img-fluid rounded" alt="Dining"></div>
     <div class="col-md-4"><img src="img3.jpg" class="img-fluid rounded" alt="Food"></div>
   </div>
 </section>
@@ -53,11 +50,29 @@ jpg" class="img-fluid rounded" alt="Dining"></div>
     <button class="btn btn-outline-danger" onclick="filterMenu('nonveg')">Non-Veg</button>
   </div>
   <div class="row" id="menuItems">
+    <!-- Veg Item -->
     <div class="col-md-4 menu-item veg">
       <div class="card"><div class="card-body"><h5 class="card-title">Margherita Pizza</h5><p>Classic veg pizza</p></div></div>
     </div>
+    <!-- Non-Veg Item -->
     <div class="col-md-4 menu-item nonveg">
       <div class="card"><div class="card-body"><h5 class="card-title">Chicken Alfredo Pasta</h5><p>Creamy non-veg pasta</p></div></div>
+    </div>
+    <!-- Cheese Burger -->
+    <div class="col-md-4 menu-item nonveg">
+      <div class="card"><div class="card-body"><h5 class="card-title">Cheese Burger</h5><p>Juicy burger with melted cheese</p></div></div>
+    </div>
+    <!-- Cheese Sandwich -->
+    <div class="col-md-4 menu-item veg">
+      <div class="card"><div class="card-body"><h5 class="card-title">Cheese Sandwich</h5><p>Grilled sandwich with melted cheese</p></div></div>
+    </div>
+    <!-- Hot Dog -->
+    <div class="col-md-4 menu-item nonveg">
+      <div class="card"><div class="card-body"><h5 class="card-title">Hot Dog</h5><p>Classic grilled sausage in a bun with toppings</p></div></div>
+    </div>
+    <!-- French Fries -->
+    <div class="col-md-4 menu-item veg">
+      <div class="card"><div class="card-body"><h5 class="card-title">French Fries</h5><p>Crispy golden fries served hot</p></div></div>
     </div>
   </div>
 </section>
@@ -91,7 +106,7 @@ jpg" class="img-fluid rounded" alt="Dining"></div>
 
 <!-- Footer -->
 <footer class="bg-dark text-light text-center p-3">
-  <p>© 2026 Maithali | Located in Mankapur</p>
+  <p>© 2026 Maithali | Address: Mankapur</p>
 </footer>
 
 <script>
@@ -107,8 +122,3 @@ function filterMenu(type) {
 </body>
 </html>
 
-
-
-     
-
-       
