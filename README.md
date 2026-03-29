@@ -1,127 +1,104 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Profile Page | Maithali S. Yadav</title>
-    <style>
-        /* General Page Styling */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5; /* Light grey background */
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        /* Navigation Bar */
-        nav {
-            width: 100%;
-            background-color: #004d40; /* Dark Teal */
-            padding: 15px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        nav a:hover {
-            color: #80cbc4;
-        }
-
-        /* Profile Card Layout */
-        .profile-container {
-            background-color: white;
-            width: 80%;
-            max-width: 500px;
-            margin-top: 50px;
-            padding: 30px;
-            border: 2px solid #004d40; /* Border styling */
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
-        }
-
-        /* Profile Image Styling */
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%; /* Circular image */
-            border: 4px solid #004d40;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-
-        /* Text Styling */
-        h1 {
-            color: #004d40;
-            margin: 10px 0;
-            text-transform: uppercase;
-        }
-
-        h2 {
-            color: #555;
-            font-size: 1.2em;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        .info-text {
-            color: #333;
-            line-height: 1.6;
-            margin: 20px 0;
-            text-align: left;
-        }
-
-        /* Attribute List Styling */
-        ul {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-        }
-
-        ul li {
-            background: #e0f2f1;
-            margin: 5px 0;
-            padding: 10px;
-            border-left: 5px solid #004d40;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Pasta Bella</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <!-- Profile Content -->
-    <div class="profile-container">
-        <img src="https://via.placeholder.com" alt="Profile Picture" class="profile-img">
-        
-        <h1>Maithali S. Yadav</h1>
-        <h2>USN: CS25153 | Section: C</h2>
-
-        <div class="info-text">
-            <p><strong>Bio:</strong> Aspiring engineer with a keen interest in aviation history and web development.</p>
-            
-            <strong>Key Attributes:</strong>
-            <ul>
-                <li>Quick Learner</li>
-                <li>Problem Solver</li>
-                <li>Team Collaborator</li>
-            </ul>
-        </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">La Pasta Bella</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reservation">Reservation</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
+<!-- Hero Section -->
+<header class="bg-light text-center p-5">
+  <h1>Welcome to La Pasta Bella</h1>
+  <p>Authentic Italian dining experience</p>
+  <a href="#reservation" class="btn btn-primary">Book a Table</a>
+</header>
+
+<!-- Gallery -->
+<section id="gallery" class="container my-5">
+  <h2 class="text-center mb-4">Our Ambiance</h2>
+  <div class="row g-3">
+    <div class="col-md-4"><img src="img1.jpg" class="img-fluid rounded" alt="Restaurant"></div>
+    <div class="col-md-4"><img src="img2.jpg" class="img-fluid rounded" alt="Dining"></div>
+    <div class="col-md-4"><img src="img3.jpg" class="img-fluid rounded" alt="Food"></div>
+  </div>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="container my-5">
+  <h2 class="text-center mb-4">Our Menu</h2>
+  <div class="d-flex justify-content-center mb-3">
+    <button class="btn btn-outline-primary me-2" onclick="filterMenu('veg')">Veg</button>
+    <button class="btn btn-outline-danger" onclick="filterMenu('nonveg')">Non-Veg</button>
+  </div>
+  <div class="row" id="menuItems">
+    <div class="col-md-4 menu-item veg">
+      <div class="card"><div class="card-body"><h5 class="card-title">Margherita Pizza</h5><p>Classic veg pizza</p></div></div>
+    </div>
+    <div class="col-md-4 menu-item nonveg">
+      <div class="card"><div class="card-body"><h5 class="card-title">Chicken Alfredo Pasta</h5><p>Creamy non-veg pasta</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Reservation Form -->
+<section id="reservation" class="container my-5">
+  <h2 class="text-center mb-4">Reserve a Table</h2>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" required>
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="col-md-6">
+      <label for="date" class="form-label">Date</label>
+      <input type="date" class="form-control" id="date" required>
+    </div>
+    <div class="col-md-6">
+      <label for="time" class="form-label">Time</label>
+      <input type="time" class="form-control" id="time" required>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-success">Reserve Now</button>
+    </div>
+  </form>
+</section>
+
+<script>
+function filterMenu(type) {
+  const items = document.querySelectorAll('.menu-item');
+  items.forEach(item => {
+    item.style.display = item.classList.contains(type) ? 'block' : 'none';
+  });
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+     
+
+       
