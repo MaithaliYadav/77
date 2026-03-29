@@ -36,12 +36,8 @@
 <section id="gallery" class="container my-5">
   <h2 class="text-center mb-4">Our Ambiance</h2>
   <div class="row g-3">
-    <div class="col-md-4"><img src="img1.jpg<img width="265" height="148" alt="image" src="https://github.com/user-attachments/assets/32d0aeaa-934c-459f-9a85-33bdb0977cc3" />
-" class="img-fluid rounded" alt="Restaurant interior"></div>
-    <div class="col-md-4"><img src="img2.jpg<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/1ded2ea9-5d96-4bf9-a7a0-74a065dccfff" />
-" class="img-fluid rounded" alt="Dining area"></div>
-    <div class="col-md-4"><img src="img3.jpg<img width="244" height="148" alt="image" src="https://github.com/user-attachments/assets/a165aeba-71a6-4954-81c3-4c4e8f4ac00c" />
-" class="img-fluid rounded" alt="Italian food"></div>
+    <div class="col-md-4"><img src="img1.jpg<img width="265" height="148" alt="image" src="https://github.com/user-attachments/assets/32d0aeaa-934c-459f-9a85-33bdb0977cc3" />" class="img-fluid rounded" alt="Restaurant interior"></div><div class="col-md-4"><img src="img2.jpg<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/1ded2ea9-5d96-4bf9-a7a0-74a065dccfff" />" class="img-fluid rounded" alt="Dining area"></div>
+    <div class="col-md-4"><img src="img3.jpg<img width="244" height="148" alt="image" src="https://github.com/user-attachments/assets/a165aeba-71a6-4954-81c3-4c4e8f4ac00c" />" class="img-fluid rounded" alt="Italian food"></div>
   </div>
 </section>
 
