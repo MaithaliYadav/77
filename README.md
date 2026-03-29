@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Pasta Bella</title>
+  <title>Maithali - Mankapur</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -11,7 +11,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">La Pasta Bella</a>
+    <a class="navbar-brand" href="#">Maithali - Mankapur</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,8 +27,8 @@
 
 <!-- Hero Section -->
 <header class="bg-light text-center p-5">
-  <h1>Welcome to La Pasta Bella</h1>
-  <p>Authentic Italian dining experience</p>
+  <h1>Welcome to Maithali</h1>
+  <p>Authentic Italian dining experience in Mankapur</p>
   <a href="#reservation" class="btn btn-primary">Book a Table</a>
 </header>
 
@@ -73,17 +73,23 @@
     </div>
     <div class="col-md-6">
       <label for="date" class="form-label">Date</label>
-      <input type="date" class="form-control" id="date" required>
+      <input type="date" class="form-control" id="date" required value="2027-06-19">
     </div>
     <div class="col-md-6">
       <label for="time" class="form-label">Time</label>
-      <input type="time" class="form-control" id="time" required>
+      <input type="time" class="form-control" id="time" required min="08:30" max="12:30">
     </div>
     <div class="col-12">
       <button type="submit" class="btn btn-success">Reserve Now</button>
     </div>
   </form>
+  <p class="text-muted mt-2">Reservations available between 8:30 AM and 12:30 PM</p>
 </section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center p-3">
+  <p>© 2026 Maithali | Located in Mankapur</p>
+</footer>
 
 <script>
 function filterMenu(type) {
@@ -97,6 +103,7 @@ function filterMenu(type) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
      
