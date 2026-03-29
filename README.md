@@ -17,9 +17,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="#reservation">Reservation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mathali">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#veg-non veg">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mMasum;sreservation">Reservation</a></li>
       </ul>
     </div>
   </div>
