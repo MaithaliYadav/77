@@ -36,9 +36,12 @@
 <section id="gallery" class="container my-5">
   <h2 class="text-center mb-4">Our Ambiance</h2>
   <div class="row g-3">
-    <div class="col-md-4"><img src="img1.jpg" class="img-fluid rounded" alt="Restaurant"></div>
-    <div class="col-md-4"><img src="img2.jpg" class="img-fluid rounded" alt="Dining"></div>
-    <div class="col-md-4"><img src="img3.jpg" class="img-fluid rounded" alt="Food"></div>
+    <div class="col-md-4"><img src="img1.<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/b37d4988-3feb-47c4-97fa-2ef38c3616e0" />
+jpg" class="img-fluid rounded" alt="Restaurant"></div>
+    <div class="col-md-4"><img src="img2.<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/f976fdf7-ddfb-41f3-b7ca-950950bb20bb" />
+jpg" class="img-fluid rounded" alt="Dining"></div>
+    <div class="col-md-4"><img src="img3.<img width="241" height="148" alt="image" src="https://github.com/user-attachments/assets/e5278da9-8d3d-40a9-9ba2-e41191cb2d98" />
+jpg" class="img-fluid rounded" alt="Food"></div>
   </div>
 </section>
 
