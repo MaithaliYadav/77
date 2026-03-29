@@ -37,7 +37,8 @@
   <h2 class="text-center mb-4">Our Ambiance</h2>
   <div class="row g-3">
     <div class="col-md-4"><img src="img1.jpg" class="img-fluid rounded" alt="Restaurant"></div>
-    <div class="col-md-4"><img src="img2.<img width="263" height="148" alt="image" src="https://github.com/user-attachments/assets/86decaa9-99eb-4f42-ba3f-75553d4115ad" />
+    <div class="col-md-4"><img src="img2.<<img width="206" height="148" alt="image" src="https://github.com/user-attachments/assets/b8e801ab-8c81-42b5-b884-fce636487c0e" />
+
 <img width="189" height="148" alt="image" src="https://github.com/user-attachments/assets/ccd60763-1cef-46b4-8053-1a094a0b0280" />
 jpg" class="img-fluid rounded" alt="Dining"></div>
     <div class="col-md-4"><img src="img3.jpg" class="img-fluid rounded" alt="Food"></div>
