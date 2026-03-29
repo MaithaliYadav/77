@@ -17,9 +17,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-        <li class="nav-item"><a class="nav-link" href="#reservation">Reservation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">maithali</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Meun : veg-non-veg</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reservation">Reservation : LA PASTA BELLA</a></li>
       </ul>
     </div>
   </div>
@@ -105,7 +105,7 @@
 <footer class="bg-dark text-light text-center p-4 mt-5">
   <div class="container">
     <p class="mb-1">📍 Address: Nagpur</p>
-    <p class="mb-1">📞 Phone: +91 98765 43210</p>
+    <p class="mb-1">📞 Phone: +91 111122225555</p>
     <p class="mb-1">✉️ Email: info@lapastabella.com</p>
     <p class="mb-1">👩‍🍳 Owner: Maithali</p>
     <p class="mb-1">👨‍💼 Manager: Masum</p>
@@ -134,4 +134,6 @@ function filterMenu(type) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
 
