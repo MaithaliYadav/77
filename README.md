@@ -1,5 +1,4 @@
-
-
+ 
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +7,10 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-image: <img width="242" height="208" alt="image" src="https://github.com/user-attachments/assets/7e89ef91-d62e-42f7-a8dd-e1ea8ece68b4" />
-);
+            background-image: url('/attachments/vyDGPwftSzpipucRzESdB.png'); /* Updated background */
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: center;
             color: white;
         }
 
@@ -89,7 +88,7 @@
 
 <section>
     <h2>Restaurant Image</h2>
-    <img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/3d5714f0-953d-4309-9476-6714c85e8677" />
+    <img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/3d5714f0-953d-4309-9476-6714c85e8677
 </section>
 
 <section>
@@ -111,7 +110,7 @@
 
 <section>
     <h2>Table Reservation</h2>
-    <form>
+    <form onsubmit="alert('Reservation successful!'); return false;">
         <label for="name">Name:</label>
         <input type="text" id="name" value="Maithali Yadav">
 
@@ -133,4 +132,5 @@
 
 </body>
 </html>
+
 
