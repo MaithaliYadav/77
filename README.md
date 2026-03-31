@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0');
             background-size: cover;
             background-repeat: no-repeat;
@@ -40,10 +41,21 @@
             text-align: center;
         }
 
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
         form input {
             width: 100%;
             padding: 8px;
-            margin: 5px 0;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
         }
 
         button {
@@ -52,6 +64,13 @@
             padding: 10px;
             border: none;
             cursor: pointer;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: darkorange;
+            transition: 0.3s;
         }
 
         img {
@@ -69,7 +88,9 @@
 
 <section>
     <h2>Restaurant Image</h2>
- <img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/3d5714f0-953d-4309-9476-6714c85e8677" />
+    <img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/3d5714f0-953d-4309-9476-6714c85e8677" />
+</section>
+
 <section>
     <h2>Menu</h2>
     <table>
@@ -78,61 +99,37 @@
             <th>Price (₹)</th>
             <th>Category</th>
         </tr>
-        <tr>
-            <td>Dal</td>
-            <td>200</td>
-            <td>Veg</td>
-        </tr>
-        <tr>
-            <td>Chawal</td>
-            <td>250</td>
-            <td>Veg</td>
-        </tr>
-        <tr>
-            <td>Chapati</td>
-            <td>200</td>
-            <td>Veg</td>
-        </tr>
-        <tr>
-            <td>Rice Special</td>
-            <td>300</td>
-            <td>Veg/Non-Veg</td>
-        </tr>
-        <tr>
-            <td>Salad</td>
-            <td>150</td>
-            <td>Veg</td>
-        </tr>
-        <tr>
-            <td>Sweet Dish</td>
-            <td>500</td>
-            <td>Veg</td>
-        </tr>
+        <tr><td>Dal</td><td>200</td><td>Veg</td></tr>
+        <tr><td>Chawal</td><td>250</td><td>Veg</td></tr>
+        <tr><td>Chapati</td><td>200</td><td>Veg</td></tr>
+        <tr><td>Rice Special</td><td>300</td><td>Veg/Non-Veg</td></tr>
+        <tr><td>Salad</td><td>150</td><td>Veg</td></tr>
+        <tr><td>Sweet Dish</td><td>500</td><td>Veg</td></tr>
     </table>
 </section>
 
 <section>
     <h2>Table Reservation</h2>
     <form>
-        Name:<br>
-        <input type="text" value="Maithali Yadav"><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="Maithali Yadav">
 
-        Contact:<br>
-        <input type="text" value="2457887222"><br>
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" value="2457887222">
 
-        Guests:<br>
-        <input type="number" value="2557833128"><br>
+        <label for="guests">Guests:</label>
+        <input type="number" id="guests" min="1" max="20" value="2">
 
-        Date:<br>
-        <input type="date" value="2025-04-12"><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" value="2025-04-12">
 
-        Time:<br>
-        <input type="time" value="20:30"> to 
-        <input type="time" value="12:20"><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" value="20:30">
 
-        <button>Reserve Now</button>
+        <button type="submit">Reserve Now</button>
     </form>
 </section>
 
 </body>
 </html>
+
