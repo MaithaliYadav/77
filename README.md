@@ -68,7 +68,8 @@
 
 <section>
     <h2>Restaurant Image</h2>
-    <img src="https://images.unsplash.com/photo-1555992336-03a23c6c8c8c" alt="Food Image">
+    <img src=<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/513e36c0-e568-4d7c-8af7-6be9e625196b" />
+
 </section>
 
 <section>
