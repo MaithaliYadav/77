@@ -1,11 +1,12 @@
 
 <html>
     <title>La Pasta Bella</title>
+    
             background-image: url(<img width="182" height="183" alt="image" src="https://github.com/user-attachments/assets/3e0ebb17-1ecd-4eaf-a50a-798958cb7f34" />
 
-<header>
-    🍽️ Welcome to La Pasta Bella 🍽️
-</header>
+<
+    <h1>🍽️ Welcome to La Pasta Bella 🍽️</h1>
+
 
 <section>
     <h2>Restaurant Image</h2>
