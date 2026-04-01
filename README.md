@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
     <title>La Pasta Bella</title>
+    <head>
     <style>
         body {
             margin: 0;
@@ -69,7 +69,7 @@
 
 <section>
     <h2>Restaurant Image</h2>
-<img<img width="2320" height="2000" alt="image" src="https://github.com/user-attachments/assets/06febb9d-6cbd-4ffd-b669-c0c3dfb6a245" />
+<img width="2320" height="2000" alt="image" src="https://github.com/user-attachments/assets/06febb9d-6cbd-4ffd-b669-c0c3dfb6a245" />
 
 </section>
 
