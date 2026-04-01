@@ -1,4 +1,3 @@
- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,11 +5,11 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('/attachments/vyDGPwftSzpipucRzESdB.png'); /* Updated background */
+            font-family: Arial;
+            background-image: url(<img width="182" height="183" alt="image" src="https://github.com/user-attachments/assets/3e0ebb17-1ecd-4eaf-a50a-798958cb7f34" />
+');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
             color: white;
         }
 
@@ -41,21 +40,10 @@
             text-align: center;
         }
 
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        form label {
-            display: block;
-            margin-top: 10px;
-        }
-
         form input {
             width: 100%;
             padding: 8px;
-            margin-top: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
+            margin: 5px 0;
         }
 
         button {
@@ -64,13 +52,6 @@
             padding: 10px;
             border: none;
             cursor: pointer;
-            margin-top: 15px;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background: darkorange;
-            transition: 0.3s;
         }
 
         img {
@@ -88,7 +69,8 @@
 
 <section>
     <h2>Restaurant Image</h2>
-    <img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/3d5714f0-953d-4309-9476-6714c85e8677
+<img<img width="2320" height="2000" alt="image" src="https://github.com/user-attachments/assets/06febb9d-6cbd-4ffd-b669-c0c3dfb6a245" />
+
 </section>
 
 <section>
@@ -99,38 +81,62 @@
             <th>Price (₹)</th>
             <th>Category</th>
         </tr>
-        <tr><td>Dal</td><td>200</td><td>Veg</td></tr>
-        <tr><td>Chawal</td><td>250</td><td>Veg</td></tr>
-        <tr><td>Chapati</td><td>200</td><td>Veg</td></tr>
-        <tr><td>Rice Special</td><td>300</td><td>Veg/Non-Veg</td></tr>
-        <tr><td>Salad</td><td>150</td><td>Veg</td></tr>
-        <tr><td>Sweet Dish</td><td>500</td><td>Veg</td></tr>
+        <tr>
+            <td>Dal</td>
+            <td>200</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>Chawal</td>
+            <td>250</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>Chapati</td>
+            <td>200</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>Rice Special</td>
+            <td>300</td>
+            <td>Veg/Non-Veg</td>
+        </tr>
+        <tr>
+            <td>Salad</td>
+            <td>150</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>Sweet Dish</td>
+            <td>500</td>
+            <td>Veg</td>
+        </tr>
     </table>
 </section>
 
 <section>
     <h2>Table Reservation</h2>
-    <form onsubmit="alert('Reservation successful!'); return false;">
-        <label for="name">Name:</label>
-        <input type="text" id="name" value="Maithali Yadav">
+    <form>
+        Name:<br>
+        <input type="text" value="Maithali Yadav"><br>
 
-        <label for="contact">Contact:</label>
-        <input type="text" id="contact" value="2457887222">
+        Contact:<br>
+        <input type="text" value="2457887222"><br>
 
-        <label for="guests">Guests:</label>
-        <input type="number" id="guests" min="1" max="20" value="2">
+        Guests:<br>
+        <input type="number" value="2557833128"><br>
 
-        <label for="date">Date:</label>
-        <input type="date" id="date" value="2025-04-12">
+        Date:<br>
+        <input type="date" value="2025-04-12"><br>
 
-        <label for="time">Time:</label>
-        <input type="time" id="time" value="20:30">
+        Time:<br>
+        <input type="time" value="20:30"> to 
+        <input type="time" value="12:20"><br><br>
 
-        <button type="submit">Reserve Now</button>
+        <button>Reserve Now</button>
     </form>
 </section>
 
 </body>
 </html>
-
 
