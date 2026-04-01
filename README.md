@@ -58,15 +58,20 @@
     <form>
         Name:<br>
         <input type="text" value="Maithali Yadav"><br>
+        
         Contact:<br>
         <input type="text" value="2457887222"><br>
+        
         Guests:<br>
         <input type="number" value="2557833128"><br>
+        
         Date:<br>
         <input type="date" value="2025-04-12"><br>
+        
         Time:<br>
         <input type="time" value="20:30"> to 
         <input type="time" value="12:20"><br><br>
+        
         <button>Reserve Now</button>
     </form>
 </section>
